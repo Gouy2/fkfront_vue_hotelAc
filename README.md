@@ -1,4 +1,4 @@
-# demo2
+# hotelAdmin
 
 ## Project setup
 ```
@@ -15,6 +15,12 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-#fkfront_vue01
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```

@@ -1,0 +1,18 @@
+acsystem@0.1.0 D:\Code\front\ACsystem\bupt_-software-engineering_-acsystem\front
+├── @babel/plugin-syntax-dynamic-import@7.2.0
+├── @element-plus/icons-vue@2.1.0 -> .\node_modules\.store\@element-plus+icons-vue@2.1.0\node_modules\@element-plus\icons-vue
+├── @vue/cli-plugin-babel@3.2.0
+├── @vue/cli-service@3.2.0
+├── axios@0.18.1
+├── babel-plugin-component@1.1.1
+├── cache-loader@4.1.0
+├── crypto@1.0.1
+├── echarts@4.9.0
+├── element-ui@2.15.14
+├── less-loader@4.1.0
+├── less@3.13.1
+├── vue-router@3.0.2
+├── vue-svg-icon@1.2.9
+├── vue-template-compiler@2.5.21
+└── vue@2.5.21
+

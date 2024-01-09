@@ -1,28 +1,39 @@
 {
-  "name": "demo2",
+  "name": "acsystem",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider &&vue-cli-service build"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "element-ui": "^2.15.14",
-    "register-service-worker": "^1.7.2",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^0.18.0",
+    "babel-plugin-component": "^1.1.1",
+    "cache-loader": "^4.1.0",
+    "crypto": "^1.0.1",
+    "echarts": "^4.2.0-rc.2",
+    "element-ui": "^2.4.11",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.2",
+    "vue-svg-icon": "^1.2.9"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-pwa": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "vue-template-compiler": "^2.6.14"
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead"
+    "not ie <= 8"
   ]
 }
